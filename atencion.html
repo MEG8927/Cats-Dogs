@@ -5,7 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://kit.fontawesome.com/943d605476.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="estilos-formulario.css">
     <title>Atención Veterinaria</title>
 </head>
 <body>
@@ -22,8 +24,81 @@
             </ul>
         </nav>
     </header>
-      
-
+    <h2>Especialistas</h2>
+    <br>
+    <p>Cada animal es un mundo, por eso contamos con especialistas de todo tipo para que puedas darle todas las atenciones a tu mascotas en el mismo lugar. Algunas de nuestras especialidades:</p>  
+    <br>
+    <table>
+        <tr>
+            <td><i class="fa-solid fa-check"></i></i>Gastroenterología</td>
+            <td><i class="fa-solid fa-check"></i>Neurología</td>
+        </tr>
+        <tr>
+            <td><i class="fa-solid fa-check"></i>Odontología</td>
+            <td><i class="fa-solid fa-check"></i>Fisioterapia</td>
+        </tr>
+        <tr>
+            <td><i class="fa-solid fa-check"></i>Traumatología</td>
+            <td><i class="fa-solid fa-check"></i>Hematología</td>
+        </tr>
+        <tr>
+            <td><i class="fa-solid fa-check"></i>Nefrología</td>
+            <td><i class="fa-solid fa-check"></i>Endocrinología</td>
+        </tr>
+        <tr>
+            <td><i class="fa-solid fa-check"></i>Oftalmología</td>
+            <td><i class="fa-solid fa-check"></i>Oncología</td>
+        </tr>
+        <tr>
+            <td><i class="fa-solid fa-check"></i>Cardiología</td>
+            <td><i class="fa-solid fa-check"></i>Dermatología</td>
+        </tr>
+        <tr>
+            <td><i class="fa-solid fa-check"></i>Acupuntura</td>
+            <td><i class="fa-solid fa-check"></i>Cirugías de urgencia y programadas</td>
+        </tr>
+        <tr>
+            <td><i class="fa-solid fa-check"></i>Cirugías Traumatológicas</td>
+        </tr> 
+    </table>
+    <br>
+    <h2>Para turnos con nuestros especialistas</h2>
+    <br>
+    <h4>Comunicate con nosotros por consultas o presupuestos y te responderemos a la brevedad.</h4>
+    <br>
+    <form action="" method="get">
+        <label for="Nombre"></label>
+        <input type="text" name="Nombre" id="Nombre" placeholder="Nombre">
+        <label for="E-mail"></label>
+        <input type="text" name="E-mail" id="E-mail" placeholder="E-mail"><br><br>
+        <label for="Asunto"></label>
+        <input type="text" name="Asunto" id="Asunto" placeholder="Asunto"><br><br>
+        <p>Especialistas</p> 
+        <select name="Especialistas" >
+            <option value="Gastroenterología">Gastroenterología</option>
+            <option value="Neurología">Neurología</option>
+            <option value="Odontología">Odontología</option>
+            <option value="Fisioterapia">Fisioterapia</option>
+            <option value="Traumatología">Traumatología</option>
+            <option value="Hematología">Hematología</option>
+            <option value="Nefrología">Nefrología</option>
+            <option value="Endocrinología">Endocrinología</option>
+            <option value="Oftalmología">Oftalmología</option>
+            <option value="Oncología">Oncología</option>
+            <option value="Cardiología">Cardiología</option>
+            <option value="Dermatología">Dermatología</option>
+            <option value="Acupuntura">Acupuntura</option>
+            <option value="Cardiología">Cardiología</option>
+            <option value="Cardiología">Cardiología</option>
+        </select>
+        <br><br>           
+        <textarea name="Mensaje" id="Mensaje" cols="30" rows="10"></textarea><br>
+        <div class="formulario__grupo formulario__grupo-btn-enviar">
+            <button type="submit" class="formulario__btn">Enviar</button>
+            <p class="formulario__mensaje-exito" id="formulario__mensaje-exito">Formulario enviado correctamente.</p>
+        </div>
+    </form>
+    <br>
     <footer>
         Derechos Reservados @2022
         <i class='bx bxl-facebook-circle' style='color:#253ea1'  ></i>
